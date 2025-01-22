@@ -1,0 +1,13 @@
+# Create project directories
+mkdir -p data/raw data/processed notebooks src visualizations
+
+# Create initial files
+touch README.md requirements.txt
+
+# Create source code files
+touch src/data_preprocessing.py src/feature_extraction.py src/ml_models.py
+
+# Create notebook files
+touch notebooks/01_data_exploration.ipynb notebooks/02_image_preprocessing.ipynb notebooks/03_feature_extraction.ipynb notebooks/04_machine_learning_analysis.ipynb
+
+I'll help you populate these files. Would you like me to start by creating the README.md and the initial
